@@ -6,10 +6,10 @@ CHECK_INTERVAL_MINUTES = 8  # How often to check
 TOPIC = 'susumaanclassalerts'  # ntfy topic
 MAX_NOTIFICATIONS_PER_CLASS = 6  # Total notifications (every hour) before stopping
 
-CLASS_SEARCH_NAME = ['CSE 471', 'CSE 420']  # Add more as needed
+CLASS_SEARCH_NAME = ['CSE 476']  # Add more as needed
 TERM_NUMBER = '2257'
 
-WHITELIST = ['81203', '85046', '64169']
+WHITELIST = ['88926']
 
 BASE_API_URL = 'https://eadvs-cscc-catalog-api.apps.asu.edu/catalog-microservices/api/v1/search/classes'
 
