@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASU Class Checker</title>
+</head>
+<body>
+    <h1>ASU Class Seat Status</h1>
+    <a href="/">Refresh</a>
+    {% if statuses %}
+        <ul>
+        {% for status in statuses %}
+            <li>{{ status }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No classes found or an error occurred.</p>
+    {% endif %}
+</body>
+</html>
